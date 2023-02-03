@@ -5,7 +5,7 @@
 class Factory
 {
 public:
-	Factory();
+	Factory() = default;
 	virtual ~Factory();
 
 	static Product* CreateProduct(const std::string proName);

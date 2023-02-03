@@ -3,11 +3,6 @@
 #include <iostream>
 #include <string>
 
-ConcreteProductB::ConcreteProductB()
-{
-
-}
-
 ConcreteProductB::~ConcreteProductB()
 {
 

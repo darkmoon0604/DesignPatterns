@@ -5,7 +5,7 @@
 class ConcreteFactory : public Factory
 {
 public:
-	ConcreteFactory();
+	ConcreteFactory() = default;
 	virtual ~ConcreteFactory();
 
 	virtual Product* FactoryMethod();

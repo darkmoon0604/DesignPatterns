@@ -2,7 +2,7 @@
 class Product
 {
 public:
-	Product();
+	Product() = default;
 	virtual ~Product();
 
 	virtual void Use();

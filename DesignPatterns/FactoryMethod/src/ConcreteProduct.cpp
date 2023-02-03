@@ -1,11 +1,6 @@
 #include "ConcreteProduct.h"
 #include <iostream>
 
-ConcreteProduct::ConcreteProduct()
-{
-
-}
-
 ConcreteProduct::~ConcreteProduct()
 {
 

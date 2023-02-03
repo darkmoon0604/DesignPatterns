@@ -3,7 +3,7 @@
 class Factory
 {
 public:
-	Factory();
+	Factory() = default;
 	virtual ~Factory();
 
 	virtual Product* FactoryMethod();

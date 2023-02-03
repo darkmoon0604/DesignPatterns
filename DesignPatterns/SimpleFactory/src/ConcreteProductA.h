@@ -4,7 +4,7 @@
 class ConcreteProductA : public Product
 {
 public:
-	ConcreteProductA();
+	ConcreteProductA() = default;
 	virtual ~ConcreteProductA();
 
 	virtual void Use();

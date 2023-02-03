@@ -2,11 +2,6 @@
 #include "ConcreteProductA.h"
 #include "ConcreteProductB.h"
 
-Factory::Factory()
-{
-
-}
-
 Factory::~Factory()
 {
 

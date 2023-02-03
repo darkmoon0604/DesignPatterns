@@ -1,11 +1,6 @@
 #include "ConcreteFactory.h"
 #include "ConcreteProduct.h"
 
-ConcreteFactory::ConcreteFactory()
-{
-
-}
-
 ConcreteFactory::~ConcreteFactory()
 {
 
